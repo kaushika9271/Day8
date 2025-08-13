@@ -1,0 +1,17 @@
+public class Static {
+	int rollno=55;
+	String  name="priya";
+	static String collegename="Mountzion";
+	void display(int a,String name) {
+		System.out.println(a+" "+name+" ");
+	}
+	public static void main(String[] args) {
+		Static obj =new Static();
+		System.out.println(obj.rollno);
+		System.out.println(Static.collegename);
+		obj.display(55, "priya");
+		obj.display(55, "kaushika");
+
+	}
+
+}
