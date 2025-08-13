@@ -1,0 +1,36 @@
+class Grandpa//used for multiple inheritance means two parentclass.
+{
+	void display()//method name
+	{
+		System.out.println("Villa");		
+	}
+	
+}
+class Dad extends Grandpa
+{
+	void property()//method name
+	{
+   System.out.println("house,land");	
+	}
+}
+class Daughter extends Dad
+{
+	void show()//method name
+	{
+	System.out.println("bike");	
+	}
+}
+
+
+
+public class Multilevelinherit {
+
+	public static void main(String[] args) {
+		Daughter obj=new Daughter();	
+		obj.display();
+		obj.property();
+		obj.show();
+
+	}
+
+}
