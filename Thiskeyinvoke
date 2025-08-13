@@ -1,0 +1,20 @@
+public class Thiskeyinvoke {
+	void display()
+	{
+	 System.out.println("hi");
+	}
+	
+	void show()
+	{
+	 this.display();//use this to invoke current class method.
+	 System.out.println("hello");
+	}
+
+	public static void main(String[] args) {
+		
+		Thiskeyinvoke obj=new Thiskeyinvoke();
+		obj.show();
+
+	}
+
+}
