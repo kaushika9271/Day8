@@ -1,0 +1,26 @@
+public class Constructorn {
+	Constructorn()//default Constructor.
+	{
+	System.out.println("hi");	
+	}
+	int age;
+	String name;
+	Constructorn(int age,String name )// read the instance variable inside conConstructor to print the output outside Constructor.
+	{
+		this.age=age;//this keyword refers the instance variable.
+		this.name=name;
+	}
+	
+	void display()//used only to print outside the Constructor
+	{
+	 System.out.println(age+" "+name);
+	}
+
+	public static void main(String[] args) {
+		Constructorn obj=new Constructorn(6,"priya");
+		obj.display();
+		
+
+	}
+
+}
