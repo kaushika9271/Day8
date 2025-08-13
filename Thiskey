@@ -1,0 +1,19 @@
+public class Thiskey {
+	int age;
+	String name;
+	Thiskey(int age,String name )// read the instance variable inside conConstructor to print the output outside Constructor.
+	{
+		this.age=age;//this keyword
+		this.name=name;
+	}
+	void display()//used only to print outside the Constructor
+	{
+	 System.out.println(age+" "+name);
+	}
+
+	public static void main(String[] args) {
+		Thiskey obj=new Thiskey(6,"priya");
+		obj.display();
+	}
+
+}
