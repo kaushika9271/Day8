@@ -1,0 +1,47 @@
+public class Trip {
+	String hillname;
+	String stay;
+	String food;
+	String visitedplaces;
+	int amnt;
+	public static void main(String[] args) {
+		Trip obj=new Trip();
+		obj.hillname="ooty";
+		obj.stay="ab";
+		obj.food="dosa";
+		obj.visitedplaces="lakeview";
+		obj.amnt=2000;
+		System.out.println(obj.hillname);
+		System.out.println(obj.stay);
+		System.out.println(obj.food);
+		System.out.println(obj.visitedplaces);
+		System.out.println(obj.amnt);
+		
+		Trip obj1=new Trip();
+		obj1.hillname="kodai";
+		obj1.stay="abc";
+		obj1.food="dosa";
+		obj1.visitedplaces="silvrefalls";
+		obj1.amnt=1000;
+		System.out.println(obj1.hillname);
+		System.out.println(obj1.stay);
+		System.out.println(obj1.food);
+		System.out.println(obj1.visitedplaces);
+		System.out.println(obj1.amnt);
+		
+		Trip obj2=new Trip();
+		obj2.hillname="yercard";
+		obj2.stay="abcd";
+		obj2.food="dosa";
+		obj2.visitedplaces="garden";
+		obj2.amnt=1000;
+		System.out.println(obj2.hillname);
+		System.out.println(obj2.stay);
+		System.out.println(obj2.food);
+		System.out.println(obj2.visitedplaces);
+		System.out.println(obj2.amnt);
+		
+
+	}
+
+}
