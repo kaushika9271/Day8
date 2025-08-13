@@ -1,0 +1,34 @@
+class Father 
+{
+	void property()//method name
+	{
+   System.out.println("house,land");	
+	}
+}
+class Daught extends Father 
+{
+	void show()//method name
+	{
+	System.out.println("bike");	
+	}
+}
+class Daught1 extends Father 
+{
+	void display()//method name
+	{
+	System.out.println("car");	
+	}
+}
+
+
+public class Hierarchical {
+
+	public static void main(String[] args) {
+		Daught1 obj=new Daught1();	
+		obj.display();
+		obj.property();
+		
+
+	}
+
+}
