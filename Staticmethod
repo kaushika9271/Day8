@@ -1,0 +1,27 @@
+public class Staticmethod {
+	static
+	{
+		System.out.println("Mounteverest");
+	}
+	int rollno;
+	static String collegename="zion";
+	
+	void display(int a) {
+		System.out.println(a+" "+collegename);
+	}
+	
+	 static void show(int a)
+	 {	 
+		Staticmethod.collegename="Mountzion";
+		System.out.println(a+" "+collegename);
+	 }
+
+	public static void main(String[] args) {
+		System.out.println("nice");
+		Staticmethod .show(55);
+		Staticmethod obj = new Staticmethod();
+		obj.display(65);
+	}
+
+	
+}
